@@ -1,0 +1,26 @@
+{
+  "name": "@cdxoo/npm-find-latest-non-esm",
+  "version": "0.0.1",
+  "description": "finds the latest non esm version of one or more packages",
+  "main": "dist/cjs/index.js",
+  "bin": {
+      "npm-find-latest-non-esm": "src/cli.js"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdxOo/npm-find-latest-non-esm.git"
+  },
+  "author": "Jan Schwalbe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cdxOo/npm-find-latest-non-esm/issues"
+  },
+  "homepage": "https://github.com/cdxOo/npm-find-latest-non-esm#readme",
+  "dependencies": {
+    "commander": "^9.1.0",
+    "pacote": "^13.1.1"
+  }
+}
